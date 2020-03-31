@@ -1,0 +1,96 @@
+#header{
+  color: dimgray ;
+  display: flex;
+  justify-content: flex-end;
+  } 
+ 
+	.element{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  padding: 11px;
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  }
+  
+#google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  }
+
+ .element{display: flex;
+  justify-content: center;
+  }
+
+input[name="request"]{
+  height: 40px;
+  width: 550px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+}
+
+#cherche{
+  display: flex;
+  justify-content: center;
+  }
+
+input[name="rg"]{
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  color:rgb(129, 128, 128);
+  }
+
+input[name="lucky"]{
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  color: rgb(129, 128, 128);
+  }
+
+#stop{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+
+#France{
+  display: flex;
+  align-items: flex-end;
+  font-size: 15px;
+  padding-left: 10px;
+  background-color: rgb(243, 243, 243);
+  color: rgb(83, 83, 83);
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: lightgray;
+  }
+
+
+#brique{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(243, 243, 243);
+  color: rgb(83, 83, 83);
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: lightgray;
+  }
+
+ .element{
+  font-size: 15px;
+ }
+
+ .element:nth-child(5){
+  flex: 1;
+ }
+
+
+  
+
